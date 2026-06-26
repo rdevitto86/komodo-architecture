@@ -1,9 +1,53 @@
+# Node
 node_modules/
+
+# Build
 dist/
+out/
+.output/
+*.tsbuildinfo
+
+# Astro
 .astro/
-.claude/
+
+# Environment
 .env
 .env.*
 !.env.example
+
+# Cache
+.cache/
+.eslintcache
+.npm/
+.pnpm-store/
+
+# Logs
 *.log
+logs/
+
+# Testing
+coverage/
+
+# OS
 .DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.history/
+
+# AI
+AGENTS.md
+CLAUDE.md
+.claude
+MEMORY.md
+TODO.md
+.mcp.json
