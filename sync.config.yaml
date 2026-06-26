@@ -1,0 +1,16 @@
+repos:
+  - name: example-service
+    repo: your-org/example-service
+    docs:
+      hld: docs/hld
+      lld: docs/lld
+      adr: docs/adr
+      prd: docs/prd
+
+  - name: another-service
+    repo: your-org/another-service
+    docs:
+      hld: docs/architecture.md
+      adr:
+        - docs/decisions/001-database.md
+        - docs/decisions/002-auth.md

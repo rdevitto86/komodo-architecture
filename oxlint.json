@@ -1,0 +1,8 @@
+{
+  "plugins": ["typescript"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "ignorePatterns": ["dist", ".astro"]
+}
